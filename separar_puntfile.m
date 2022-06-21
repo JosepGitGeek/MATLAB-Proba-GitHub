@@ -9,6 +9,8 @@ function [string_file, string_final] = separar_puntfile(string1)
 
 %Me comes el bolliii
 
+% Me comes el bolliiii 2
+
 if contains(string1, ".")
     splited_string1 = split(string1, ".");
     string_file = splited_string1{1};
