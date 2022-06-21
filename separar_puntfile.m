@@ -6,6 +6,9 @@ function [string_file, string_final] = separar_puntfile(string1)
 %
 %string1 = "asdf.jpg"
 
+
+%Me comes el bolliii
+
 if contains(string1, ".")
     splited_string1 = split(string1, ".");
     string_file = splited_string1{1};
